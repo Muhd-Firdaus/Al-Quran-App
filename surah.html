@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al-Quran Apps</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -60,82 +61,10 @@
 
         }
     </script>
-    <style>
-        body{
-            font-family: Arial, sans-serif; /* Set font family */
-        }        
-        .centered{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            
-        }
-        
-        .centered button{
-            display: inline-block;
-            border: none;
-            border-radius: 20px; /* Adjust the value to change the roundness */
-            background-color: #007bff; /* Change the background color as desired */
-            color: white; /* Text color */
-            font-size: 20px; /* Font size */
-            padding: 10px 20px; /* Padding */
-            cursor: pointer; /* Cursor style */
-            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-        }
-
-        .centered button:hover{
-            background-color: #0056b3; /* Change background color on hover */
-        }
-
-        .centered h1{
-            font-size: 50px; /* Set font size */
-        }
-
-        .centered img {
-            width: 70px; 
-            height: auto; /* Maintain aspect ratio */
-        }
-
-        .card{
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            width: auto; /* Adjust width as needed */
-            min-width: 300px;
-            margin: 0 auto; /* Center the card horizontally */
-        }
-
-        .footer{
-            /* background-color: black; */
-            /* color: white; */
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        #result {
-            max-height: 500px;
-            height: auto; /* Set the height of the div */
-            overflow-y: scroll; /* Make the div scrollable vertically */
-            border: 1px solid #ccc; /* Optional: Add a border for better visibility */
-        }
-    </style>
 </head>
 <body>
     <div class="centered">
-        <h1>Al-Quran Apps</h1>
-        <!-- <table>
-            <tr>
-                <td><h1>Al-Quran Apps</h1></td>
-                <td><img src="https://static.thenounproject.com/png/2939974-200.png" alt=""></td>
-            </tr>
-        </table> -->
-        
+        <h1>Al-Quran Apps</h1>        
         <div class="card">
             <form action="" method="post">
                 <select name="surah" id="surah">
