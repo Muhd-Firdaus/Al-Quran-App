@@ -61,7 +61,7 @@ This is a simple Al-Quran web application built using HTML, CSS, JavaScript, and
 ## Credits
 
 - **Frontend Development**: HTML, CSS, JavaScript, and jQuery.
-- **API**: [Al-Quran Cloud API](http://api.alquran.cloud/).
+- **API**: [Al-Quran Cloud API](http://alquran.cloud/api).
 - **Author**: Muhd-Firdaus
 
 ## License
